@@ -1,8 +1,8 @@
 cask "prune" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.14.0"
-  sha256 arm: "552ae1e5cb8c4452863847beb137a6cbcde421881a90121887d092405f5203d6", intel: "0695b0d9d36fb3aa394b23b9577eb5f22da535f51fa7cc41f4278fc2282ee3fc"
+  version "0.16.0"
+  sha256 arm: "a14863154734caf6f1cd0c1c0f583df67b08a0791b9773a5259ff61e7d635a7c", intel: "21aabf26d228f697447c6354daea6d0372a074cace3ddfddf7a8a44e6be9c64f"
 
   url "https://github.com/JackXuyi/prune/releases/download/v#{version}/Prune_#{version}_#{arch}.dmg",
       verified: "github.com/JackXuyi/prune/"
