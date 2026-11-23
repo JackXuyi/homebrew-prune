@@ -2,8 +2,8 @@ class PruneCli < Formula
   desc "Local dev-machine health CLI (disk, memory, ports, network)"
   homepage "https://github.com/JackXuyi/prune"
   url "https://github.com/JackXuyi/prune/releases/download/v#{version}/Prune_CLI_#{version}_universal_macos.tar.gz"
-  version "0.17.0"
-  sha256 "017030f49e7fb423e1e2e2f46e1165a53d39887a74da12483baa638a19d533d1"
+  version "0.18.0"
+  sha256 "2946b78a1f3f91d4f7c564cef19b43a5a892531066790ae83971609e11225d7e"
 
   livecheck do
     url :stable
